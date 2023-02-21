@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+            }  
+            /*as coordenada dos pixeis funcionam sempre 
+            da esquerda para a direiraa e de cima para baixo*/
+
+
+            .div-1{
+                margin: auto /*vai posicionar a div central na horizontal independentemente da sua largua*/;
+                position: relative;
+                left: 10px;
+                top: 10px;
+                width: 50%; /*vai ocupar literalmente o espaço disponível na horizontal, por isso ele é relativo*/
+                height: 100px;
+                background-color: blue;
+            }
+
+            .div-2{
+                position: relative; /*Relativo ao seu elemento pai, neste caso o .div-1*/
+                left: 10px;
+                top: 10px;
+                width: 50px;
+                height: 50px;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+
+
+    <!--Podemos observar que por padrão o body ele 
+        tem uma margem de 8px -->
+
+    <body>
+        <div class="div-1">
+            <div class="div-2"></div>
+        </div>
+    </body>
+</html>
