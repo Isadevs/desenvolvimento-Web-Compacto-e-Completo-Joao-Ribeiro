@@ -59,6 +59,18 @@ body{
     overflow: auto;
 }
 
+.container-servicos-contactos{
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 80px;
+    background-color: #02111f;
+}
+
 .container-quem-somos .servico{
     float: center;
     margin: 60px auto;
@@ -69,4 +81,27 @@ body{
     text-align: center;
 }
 
+.container-quem-somos.servico-texto{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #81c4ff;
+}
+
+.botoes-servicos-contactos a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes-servicos-contactos a:hover{
+    background-color: white;
+    color: black;
+}
 
